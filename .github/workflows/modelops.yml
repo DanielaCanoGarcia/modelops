@@ -23,7 +23,6 @@ jobs:
     - name: execute model
       run: python linear-model.py
 
-
     - name: docker login
       env:
         DOCKER_USER: ${{secrets.DOCKER_USER}}
